@@ -1,8 +1,12 @@
-# Discount-Tracker-
-This is a Discount Tracker 
-Introduction of Project
-With the rapid growth of e-commerce, online shoppers are constantly searching for tools that can help them make informed purchasing decisions and take advantage of price drops. However, manually tracking product prices across multiple platforms can be tedious and inefficient. To address this issue, the Discount Tracker project provides an automated solution for monitoring product prices over time and notifying users when discounts occur.
-The system comprises a full-stack web application, with a backend developed in Node.js and Express, responsible for scraping product data from online retail sites and storing it in a MySQL database. The frontend, built using React.js, offers users an intuitive interface for interacting with the system. Users can add products by submitting either a direct URL to the product page or by manually entering the product name and price. Once submitted, the product information is processed by the backend and made available for viewing and management in the frontend interface.
-The primary goal of the Discount Tracker is to simplify the process of monitoring prices by automating product data collection and enabling users to manage their watchlist efficiently. The frontend plays a pivotal role by delivering a responsive and user-friendly experience, handling user input validation, displaying real-time updates, and providing meaningful feedback through notifications and visual cues.
-This report focuses on the design, implementation, and functionality of the frontend application. It explores how React components, API integration, and state management techniques were used to create a seamless and effective interface. The report also discusses challenges encountered during development, the rationale behind design decisions, and how the frontend complements the backend services to form a cohesive and scalable system.
- 
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
